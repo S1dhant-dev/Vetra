@@ -97,7 +97,7 @@ const Footer = () => {
                                 </li>
                                 <li className="mt-2">
                                     <Link href="#" className="link hover:text-foreground transition-all duration-300">
-                                        Support
+                                        Supportnpm install next@latest eslint-config-next@latest
                                     </Link>
                                 </li>
                             </ul>
