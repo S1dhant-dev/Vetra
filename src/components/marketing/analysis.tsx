@@ -9,7 +9,7 @@ const Analysis = () => {
             <Container>
                 <div className="flex flex-col items-center text-center max-w-3xl mx-auto mb-16">
                     <h2 className="text-2xl md:text-4xl lg:text-5xl font-heading font-medium !leading-snug">
-                        Intelligent marketing  <br /><span className="font-subheading italic">dashboard</span>
+                        Marketing <span className="font-subheading italic">Revenue </span> dashboard
                     </h2>
                     <p className="text-base md:text-lg text-accent-foreground/80 mt-4">
                         Gain detailed insights into your marketing performance and campaign metrics with our advanced analytics tools.
@@ -22,18 +22,18 @@ const Analysis = () => {
                 <Container delay={0.2}>
                     <div className="rounded-2xl bg-background/40 relative border border-border/50">
                         <MagicCard
-                            gradientFrom="#38bdf8"
-                            gradientTo="#3b82f6"
+                            gradientFrom="#38f873"
+                            gradientTo="#bdf838"
                             gradientColor="rgba(59,130,246,0.1)"
                             className="p-4 lg:p-8 w-full overflow-hidden"
                         >
-                            <div className="absolute bottom-0 right-0 bg-blue-500 w-1/4 h-1/4 blur-[8rem] z-20"></div>
+                            <div className="absolute bottom-0 right-0 bg-green-500 w-1/4 h-1/4 blur-[8rem] z-20"></div>
                             <div className="space-y-4">
                                 <h3 className="text-xl font-semibold">
-                                    Campaign Insights
+                                Strategic Oversight
                                 </h3>
                                 <p className="text-sm text-muted-foreground">
-                                    Track your campaign performance with data-driven insights.
+                                Master your metrics in a glance. Get the intelligence you need to optimize campaigns in real-time
                                 </p>
 
                                 <div className="space-y-4">
@@ -86,18 +86,18 @@ const Analysis = () => {
                 <Container delay={0.2}>
                     <div className="rounded-2xl bg-background/40 relative border border-border/50">
                         <MagicCard
-                            gradientFrom="#38bdf8"
-                            gradientTo="#3b82f6"
+                            gradientFrom="#38f873"
+                            gradientTo="#bdf838"
                             gradientColor="rgba(59,130,246,0.1)"
                             className="p-4 lg:p-8 w-full overflow-hidden"
                         >
-                            <div className="absolute bottom-0 right-0 bg-sky-500 w-1/4 h-1/4 blur-[8rem] z-20"></div>
+                            <div className="absolute bottom-0 right-0 bg-green-500 w-1/4 h-1/4 blur-[8rem] z-20"></div>
                             <div className="space-y-4">
                                 <h3 className="text-xl font-semibold">
-                                    Audience Metrics
+                                Audience Segments
                                 </h3>
                                 <p className="text-sm text-muted-foreground">
-                                    Understand your audience behavior and engagement patterns.
+                                Identify high-value behaviors. Map every scroll, click, and conversion to build a roadmap for deeper engagement.
                                 </p>
 
                                 <div className="space-y-4">

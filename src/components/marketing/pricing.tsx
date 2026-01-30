@@ -27,7 +27,7 @@ const Pricing = () => {
                 <Container>
                     <div className="flex flex-col items-center text-center max-w-2xl mx-auto">
                         <h2 className="text-2xl md:text-4xl lg:text-5xl font-heading font-medium !leading-snug mt-6">
-                            Find the right plan that suits <br className="hidden lg:block" /> <span className="font-subheading italic">your needs</span>
+                            Choice your best plan <br className="hidden lg:block" /> <span className="font-subheading italic">For your company</span>
                         </h2>
                         <p className="text-base md:text-lg text-center text-accent-foreground/80 mt-6">
                             Transform your marketing with AI-powered automation. Create campaigns faster, generate better content, and make smarter decisions in minutes.
@@ -37,17 +37,17 @@ const Pricing = () => {
 
                 <Container delay={0.2}>
                     <div className="flex items-center justify-center space-x-4 mt-6">
-                        <span className="text-base font-medium">Monthly</span>
+                        <span className="text-base font-lg">Monthly</span>
                         <button onClick={handleSwitch} className="relative rounded-full focus:outline-none">
-                            <div className="w-12 h-6 transition rounded-full shadow-md outline-none bg-blue-500"></div>
+                            <div className="w-12 h-6 transition rounded-full shadow-md outline-none bg-green-500"></div>
                             <div
                                 className={cn(
                                     "absolute inline-flex items-center justify-center w-4 h-4 transition-all duration-500 ease-in-out top-1 left-1 rounded-full bg-white",
-                                    billPlan === "annually" ? "translate-x-6" : "translate-x-0"
+                                    billPlan === "annually" && "border-green-200"
                                 )}
                             />
                         </button>
-                        <span className="text-base font-medium">Annually</span>
+                        <span className="text-base font-medium">Yearly</span>
                     </div>
                 </Container>
             </div>
@@ -67,10 +67,10 @@ const Plan = ({ plan, billPlan }: { plan: PLAN, billPlan: Plan }) => {
     return (
         <div className={cn(
             "flex flex-col relative rounded-2xl lg:rounded-3xl transition-all bg-background/ items-start w-full border border-foreground/10 overflow-hidden",
-            plan.title === "Mastermind" && "border-blue-500"
+            plan.title === "Mastermind" && "border-green-500"
         )}>
             {plan.title === "Mastermind" && (
-                <div className="absolute top-1/2 inset-x-0 mx-auto h-12 -rotate-45 w-full bg-blue-600 rounded-2xl lg:rounded-3xl blur-[8rem] -z-10"></div>
+                <div className="absolute top-1/2 inset-x-0 mx-auto h-12 -rotate-45 w-full bg-green-600 rounded-2xl lg:rounded-3xl blur-[8rem] -z-10"></div>
             )}
 
             <div className="p-4 md:p-8 flex rounded-t-2xl lg:rounded-t-3xl flex-col items-start w-full relative">

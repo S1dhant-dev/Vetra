@@ -138,7 +138,7 @@ img {
   width: 70%;
   border-radius: 100%;
   filter: blur(6rem);
-  background: rgb(85, 145, 243);
+  background: rgb(106, 243, 85);
 }
 
 .footer::before {

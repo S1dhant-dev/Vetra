@@ -15,8 +15,8 @@ export const PLANS: PLAN[] = [
         id: "standard",
         title: "Standard",
         desc: "Perfect for solopreneurs and small teams looking to automate their content creation and social media with AI tools.",
-        monthlyPrice: 29,
-        annuallyPrice: 306,
+        monthlyPrice: 19,
+        annuallyPrice: 350,
         buttonText: "Upgrade to Standard",
         features: [
             "AI content (1,000 words/mo)",

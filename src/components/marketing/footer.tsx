@@ -11,7 +11,7 @@ const Footer = () => {
                         <div className="flex items-center gap-2">
                             <Icons.icon className="w-auto h-5" />
                             <span className="text-base md:text-lg font-medium text-foreground">
-                                Vetra
+                                Woobweb
                             </span>
                         </div>
                         <p className="text-muted-foreground mt-4 text-sm text-start">
@@ -132,9 +132,9 @@ const Footer = () => {
 
             <Container delay={0.5} className="w-full relative mt-12 lg:mt-20">
                 <div className="mt-8 md:flex md:items-center justify-center footer w-full">
-                    <p className="text-sm text-muted-foreground mt-8 md:mt-0">
-                        &copy; {new Date().getFullYear()} Vetra. All rights reserved.
-                    </p>
+                <Link href="https://5idhant.vercel.app/" className="link hover:text-foreground transition-all duration-300">
+                                          Sidhant All right reserved
+                                        </Link>
                 </div>
             </Container>
         </footer>

@@ -12,9 +12,9 @@ const Navbar = () => {
                 <div className="flex items-center justify-between h-full">
                     <div className="flex items-center">
                         <Link href="/" className="flex items-center gap-2">
-                            <Icons.icon className="w-6" />
+                            
                             <span className="text-xl font-semibold hidden lg:block">
-                                Vetra
+                                Woobweb
                             </span>
                         </Link>
                     </div>
@@ -33,9 +33,7 @@ const Navbar = () => {
 
                     <div className="flex items-center gap-4">
                         <Link href="#" className="hidden lg:block">
-                            <Button variant="blue">
-                                Get Started
-                            </Button>
+                        <button className='transition-background inline-flex h-10 items-center justify-center rounded-md border border-gray-100 bg-gradient-to-r from-gray-100 via-[#d7fec7] to-[#b7f364] bg-[length:200%_200%] bg-[0%_0%] px-6 font-medium text-gray-950 duration-500 hover:bg-[100%_200%] focus:outline-none focus:ring-1 focus:ring-green-400 focus:ring-offset-1'>Get Start</button>
                         </Link>
                         <MobileMenu />
                     </div>
