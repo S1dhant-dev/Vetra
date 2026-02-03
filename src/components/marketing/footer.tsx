@@ -2,7 +2,7 @@ import Link from "next/link";
 import Container from "../global/container";
 import Icons from "../global/icons";
 
-const Footer = () => {
+function Footer() {
     return (
         <footer className="flex flex-col relative items-center justify-center border-t border-foreground/5 pt-16 pb-8 px-6 lg:px-8 w-full max-w-6xl mx-auto lg:pt-32">
             <div className="grid gap-8 xl:grid-cols-3 xl:gap-8 w-full">
